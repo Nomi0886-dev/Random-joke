@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Lucida Console;
+    align-items: center;
+}
+.containor{
+    background-color: #7fffd478;
+    width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+    margin: 0;
+    line-height: 80px;
+    font-size: xx-large;
+}
+.joke{
+    background-color: #5FBB97;
+    min-height: 30vh;
+    width: 85%;
+    margin: 50px auto;
+    border-radius: 35px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 5px #63326E;
+}
+h4{
+    line-height: 25px;
+    font-size: larger;
+    margin: auto;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn h2{
+    display: inline-block;
+    line-height: 0;
+}
+
+.color{
+    color: #63326E;
+}
+button{
+    padding: 7px 25px;
+    margin-left: 15px;
+    background-color: #63326E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Lucida Console;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    scale: 1.3;
+}
+@media only screen  and (max-width : 450px){
+    .joke{
+        width: 75%;
+        height: 50%;
+    }
+    .joke h3{
+        line-height: 45px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen  and (max-width : 1000px){
+        .containor{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+width: 12px;
+}
+
+    ::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 6px;
+  } 
+/*   
+  ::-webkit-scrollbar-track {
+    background-color: #222; 
+  }
+   */
+  /* For Firefox */
+  /* scrollbar-color: #333 #222; Dark color for the thumb and track in Firefox */
